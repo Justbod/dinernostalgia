@@ -12,7 +12,7 @@ void Chef::setName(std::string name)
 	this->name = name;
 }
 
-//returns a vector that contains all the dishes this chef can prepare
+//returns a list that contains all the dishes this chef can prepare
 std::list<Dish> Chef::getLearnedDishList()
 {
 	return this->learnedDishList;
@@ -56,7 +56,7 @@ bool Chef::isIdle()
 	return this->isIdle;
 }
 
-//set to false if chef starts preparing a meal and to false if chef is not preparing a dish anymore
+//set to true if chef starts preparing a meal and to false if chef is not preparing a dish anymore
 void Chef::setIdle(bool idle)
 {
 	this->isIdle = idle;

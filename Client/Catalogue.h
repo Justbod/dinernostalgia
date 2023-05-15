@@ -1,7 +1,10 @@
 class Catalogue
 {
 private:
-	//TODO
+	//TODO product category 
+	//TODO product page
+	//TODO product/upgrade (class?)
 public:
-	//TODO
+	//TODO purchase method
+	//TODO 
 };
