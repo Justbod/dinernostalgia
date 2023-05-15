@@ -1,0 +1,8 @@
+class RenderObject
+{
+private:
+
+
+public:
+
+};
