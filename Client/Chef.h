@@ -6,7 +6,7 @@ class Chef
 private:
 	std::string name; //name of the chef
 	std::list<Dish> learnedDishList; //a vector that contains all the dishes this chef can prepare
-	std::list<Dish> dishQueue; //an array that contains the dishes that this chef is preparing (index 0 first)
+	std::list<Dish> dishQueue; //an array that contains the dishes that this chef is preparing (index 0 first) use std::queue
 	bool isIdle; //returns true if this chef is not preparing a meal and viceversa
 	int cookingSpeed; //return the cooking speed multiplier of this chef
 public:
