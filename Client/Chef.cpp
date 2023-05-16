@@ -22,7 +22,7 @@ std::list<Dish> Chef::getLearnedDishList()
 bool Chef::hasLearnedDish(int id)
 {
 	bool hasLearned = false;
-	for (Dish dish : this->learnedDishList)
+	for (Dish dish : this->learnedDishList) // use Dish refrence
 	{
 		if (dish.Dish::getId() = id)
 		{
