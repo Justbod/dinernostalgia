@@ -13,7 +13,7 @@ public:
 	{
 		this->id = id;
 		this->name = name;
-	}
+	} // use initializer list 
 
 	int& getId(); //returns the ID of this dish
 
